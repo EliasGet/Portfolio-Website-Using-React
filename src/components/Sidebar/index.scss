@@ -120,8 +120,9 @@
                 font-size: 15px;
                 line-height: 16px;
                 color: #4d4d4e;
+                text-decoration: none;
 
-                &:hover {
+                &:hover svg {
                     color: #eeeff0;
                 }
             }
