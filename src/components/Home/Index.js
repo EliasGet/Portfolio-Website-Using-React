@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './index.scss'
+import Loader from 'react-loaders'
 import LogoTitle from './Logo/logo-e.png'
 import LogoElias from './Logo/My Photo b&w.png'
 
@@ -9,7 +10,7 @@ function Home() {
         <>
             <div className="container home-page">
                 <div className="text-zone">
-                    <h1>Hi, <br />I'm<img src={LogoTitle} alt="deceloper" />
+                    <h1>Hi, <br />I'm<img src={LogoTitle} alt="developer" />
                         lias <br />
                         Web developer
                     </h1>
@@ -25,6 +26,7 @@ function Home() {
                     />
                 </div>
             </div>
+            <Loader type="pacman" />
         </>
     )
 }

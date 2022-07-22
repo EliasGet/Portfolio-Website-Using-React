@@ -6,7 +6,7 @@ import {
     faJsSquare,
     faReact,
 } from '@fortawesome/free-brands-svg-icons'
-//import Loader from 'react-loaders'
+import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
@@ -61,7 +61,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            {/* <Loader type="pacman" /> */}
+            <Loader type="pacman" />
         </>
     )
 }
