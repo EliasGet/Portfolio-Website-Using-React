@@ -44,7 +44,7 @@ const About = () => {
                 <div className="stage-cube-cont">
                     <div className="cubespinner">
                         <div className="face1">
-                            <FontAwesomeIcon icon={faReact} color="#DD0031" />
+                            <FontAwesomeIcon icon={faReact} color="#00d8ff" />
                         </div>
                         <div className="face2">
                             <FontAwesomeIcon icon={faHtml5} color="#F06529" />
