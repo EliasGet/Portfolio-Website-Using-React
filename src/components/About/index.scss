@@ -3,7 +3,7 @@
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 40%;
+    width: 50%;
     max-height: 90%;
 }
 
@@ -14,26 +14,40 @@ h1 {
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 p {
     color: #0a0a0a;
     margin-top: 20px;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 18px;
     font-family: sans-serif;
-    animation: fadeIn 1s 1.8s backwards;
-}
+    min-width: fit-content;
+    animation: pulse 1s;
 
+    &:nth-of-type(1) {
+        animation-delay: 1.1s;
+    }
+
+    &:nth-of-type(2) {
+        animation-delay: 1.2s;
+    }
+
+    &:nth-of-type(3) {
+        animation-delay: 1.3s;
+    }
+}
 
 .stage-cube-cont {
     width: 50%;
     height: 100%;
     top: 0;
-    padding-top: 18%;
+    padding-top: 10%;
     margin-left: 0;
     position: absolute;
     right: 0;
+    left: 55%;
     overflow: hidden;
 }
 
@@ -48,8 +62,8 @@ p {
 
     div {
         position: absolute;
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
         border: 1px solid #ccc;
         background: rgba(255, 255, 255, 0.4);
         text-align: center;
@@ -62,32 +76,32 @@ p {
 
     .face1 {
         transform: translateZ(100px);
-        color: #dd0031;
+        color: #28A4D9;
     }
 
     .face2 {
         transform: rotateY(90deg) translateZ(100px);
-        color: #f06529;
+        color: #F06529;
     }
 
     .face3 {
         transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-        color: #28a4d9;
+        color: #00d8ff;
     }
 
     .face4 {
         transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-        color: #5ed4f4;
+        color: #EFD81D;
     }
 
     .face5 {
         transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-        color: #efd81d;
+        color: #EC4D28;
     }
 
     .face6 {
         transform: rotateX(-90deg) translateZ(100px);
-        color: #ec4d28;
+        color: #8b12fd;
     }
 }
 

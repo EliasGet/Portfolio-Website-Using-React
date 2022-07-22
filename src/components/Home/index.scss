@@ -16,6 +16,29 @@
         font-family: 'Coolvetica';
         font-weight: 400;
 
+        &:before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore', cursive;
+            color: #0a0a0a;
+            font-size: 20px;
+            position: absolute;
+            margin-top: -40px;
+            left: -15px;
+            opacity: 0.8;
+        }
+
+        &:after {
+            content: '</h1>';
+            font-family: 'La Belle Aurore', cursive;
+            color: #0a0a0a;
+            font-size: 20px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+
         img {
             margin-left: 20px;
             opacity: 0;
@@ -37,7 +60,8 @@
     }
 
     .flat-button {
-        color: #0a0a0a;
+        background: #0a0a0a;
+        color: #eeeff0;
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4px;
@@ -50,11 +74,34 @@
         animation: fadeInAnimation 1s 1.8s backwards;
         white-space: nowrap;
 
+
+        &:hover {
+            background: #252525;
+            color: #dcdddd;
+        }
+    }
+
+    .flat-button-2 {
+        color: #0a0a0a;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #0a0a0a;
+        margin-top: 25px;
+        margin-left: 15px;
+        float: left;
+        animation: fadeInAnimation 1s 1.8s backwards;
+        white-space: nowrap;
+
         &:hover {
             background: #0a0a0a;
             color: #eeeff0;
         }
     }
+
 }
 
 .logo-container {
