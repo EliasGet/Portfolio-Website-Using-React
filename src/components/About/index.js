@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
-    faAngular,
+
     faCss3,
     faGitAlt,
     faHtml5,
@@ -21,16 +21,21 @@ const About = () => {
                     <p>
                         I'm very ambitious front-end developer looking for a role in
                         established IT company with the opportunity to work with the latest
-                        technologies on challenging and diverse projects.
+                        technologies on challenging and diverse projects. I have a bachelor’s degree
+                        in Computer Science from HiLCoE School of Computer Science and Technology and
+                        a certificate in the course Responsive Web Design from freecodecamp.org.
                     </p>
                     <p>
-                        I'm quietly confident, naturally curious, and perpetually working on
-                        improving my chops one design problem at a time.
+                        The way I see it, a person hiring me for a job will benefit in two ways.
+                        Number one: my client will always get someone who delivers on time,
+                        Second: I'm always available to my clients. Hence the term, Dependable
+                        and Committed. Not only will I do the job, but I will also engage myself
+                        in coming up with new solutions that can solve the project better.
                     </p>
                     <p>
-                        If I need to define myself in one sentence that would be a family
-                        person, father of a beautiful daughter, a sports fanatic,
-                        photography enthusiast, and tech-obsessed!!!
+                        I believe in open and frequent communication between my clients and me so that
+                        everyone involved is always on the right page. I look forward to hearing from
+                        you and can't wait till we work together.
                     </p>
                 </div>
 
@@ -45,13 +50,11 @@ const About = () => {
                         <div className="face3">
                             <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
                         </div>
+
                         <div className="face4">
-                            <FontAwesomeIcon icon={faAngular} color="#5ED4F4" />
-                        </div>
-                        <div className="face5">
                             <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
                         </div>
-                        <div className="face6">
+                        <div className="face5">
                             <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
                         </div>
                     </div>
