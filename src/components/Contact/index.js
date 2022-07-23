@@ -38,7 +38,7 @@ const Contact = () => {
                         Contact Me
                     </h1>
                     <p style={{ width: "60%" }}>
-                        I am interested in freelance opportunities - especially ambitious or
+                        I am interested in freelance opportunities - especially ambitious on
                         large projects. However, if you have other request or question,
                         don't hesitate to contact me using below form either.
                     </p>

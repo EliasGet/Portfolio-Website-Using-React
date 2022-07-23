@@ -88,6 +88,10 @@ p {
         float: right;
         text-align: center;
 
+        &:hover {
+            background: #0a0a0a;
+            color: #eeeff0;
+        }
     }
 }
 
