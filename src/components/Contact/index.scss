@@ -34,7 +34,7 @@ p {
             display: block;
             clear: both;
             position: relative;
-            animation: fadeInUp 2s 2s;
+            animation: fadeInUp 1s 1s;
             animation-fill-mode: forwards;
         }
 
@@ -114,25 +114,21 @@ p {
 
 .info-map {
     position: absolute;
-    background: #000;
+    background: #c0c0c0;
     top: 50px;
     right: 30%;
     z-index: 999999;
     width: 267px;
     padding: 20px;
-    color: #fff;
+    color: #0a0a0a;
     font-family: 'Helvetica';
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 300;
     opacity: 0;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
 
     span {
-        font-size: 16px;
-
-        span {
-            color: #ffd700;
-        }
+        font-size: 18px;
     }
 }
