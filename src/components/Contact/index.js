@@ -15,9 +15,9 @@ const Contact = () => {
         emailjs
             .sendForm(
                 'gmail',
-                'template_YeJhZkgb',
+                'template_rq4q63a',
                 form.current,
-                'your-token'
+                'GATJL6pg8Bq7LtTPK'
             )
             .then(
                 () => {
@@ -28,6 +28,7 @@ const Contact = () => {
                     alert('Failed to send the message, please try again')
                 }
             )
+        e.target.reset();
     }
 
     return (
