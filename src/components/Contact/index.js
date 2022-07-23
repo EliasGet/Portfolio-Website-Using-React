@@ -14,7 +14,7 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                'gmail',
+                'service_mepkfvp',
                 'template_rq4q63a',
                 form.current,
                 'GATJL6pg8Bq7LtTPK'
@@ -24,7 +24,8 @@ const Contact = () => {
                     alert('Message successfully sent!')
                     window.location.reload(false)
                 },
-                () => {
+                (error) => {
+                    console.error(error)
                     alert('Failed to send the message, please try again')
                 }
             )
