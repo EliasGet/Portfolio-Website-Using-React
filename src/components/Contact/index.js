@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
@@ -6,14 +5,9 @@ import emailjs from '@emailjs/browser'
 import './index.scss'
 
 const Contact = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
+
     const form = useRef()
 
-    useEffect(() => {
-        return setTimeout(() => {
-            setLetterClass('text-animate-hover')
-        }, 3000)
-    }, [])
 
     const sendEmail = (e) => {
         e.preventDefault()
@@ -43,7 +37,7 @@ const Contact = () => {
                     <h1>
                         Contact Me
                     </h1>
-                    <p>
+                    <p style={{ width: "60%" }}>
                         I am interested in freelance opportunities - especially ambitious or
                         large projects. However, if you have other request or question,
                         don't hesitate to contact me using below form either.

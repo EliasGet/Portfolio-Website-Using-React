@@ -17,21 +17,21 @@ const About = () => {
             <div className="container about-page">
                 <div className="text-zone">
                     <h1>About Me</h1>
-                    <p>
+                    <p className="about-paragraph">
                         I'm very ambitious front-end developer looking for a role in
                         established IT company with the opportunity to work with the latest
                         technologies on challenging and diverse projects. I have a bachelor’s degree
                         in Computer Science from HiLCoE School of Computer Science and Technology and
                         a certificate in the course Responsive Web Design from freecodecamp.org.
                     </p>
-                    <p>
+                    <p className="about-paragraph">
                         The way I see it, a person hiring me for a job will benefit in two ways.
                         Number one: my client will always get someone who delivers on time,
                         Second: I'm always available to my clients. Hence the term, Dependable
                         and Committed. Not only will I do the job, but I will also engage myself
                         in coming up with new solutions that can solve the project better.
                     </p>
-                    <p>
+                    <p className="about-paragraph">
                         I believe in open and frequent communication between my clients and me so that
                         everyone involved is always on the right page. I look forward to hearing from
                         you and can't wait till we work together.
