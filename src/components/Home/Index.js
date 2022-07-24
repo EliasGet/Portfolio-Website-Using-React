@@ -16,7 +16,7 @@ function Home() {
                     </h1>
                     <h2>Frontend Developer | React Expert </h2>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
-                    <Link to="/contact" className="flat-button-2">DOWNLOAD CV</Link>
+                    <Link to="/MY _CV.pdf" className="flat-button-2" target="_blank" download>DOWNLOAD CV</Link>
                 </div>
                 <div className="logo-container">
                     <img

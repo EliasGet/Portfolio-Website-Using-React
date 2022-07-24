@@ -3,7 +3,7 @@ import React from 'react'
 import './index.scss'
 import Loader from 'react-loaders'
 import MyPhoto from './Logo/DegreeColor.png'
-//import LogoElias from './Logo/My Photo b&w.png'
+import Degree from './Logo/Degree.jpg'
 
 function Portfolio() {
     return (
@@ -18,6 +18,14 @@ function Portfolio() {
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                     <Link to="/contact" className="flat-button-2">DOWNLOAD CV</Link>
                 </div> */}
+            <div className="container home-page">
+                <div className="text-zone">
+                    <div class="Degree">
+                        <img src={Degree}
+                            alt="Degree" />
+                    </div>
+                </div>
+            </div>
             <div className="logo-container">
                 <img
                     className="solid-logo"
