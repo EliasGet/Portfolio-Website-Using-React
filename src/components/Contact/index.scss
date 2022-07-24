@@ -9,6 +9,7 @@
 
 p {
     color: #0a0a0a;
+    width: 90%;
     margin-top: 20px;
     font-weight: 200;
     font-size: 18px;
@@ -110,25 +111,4 @@ p {
     opacity: 0;
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
-}
-
-.info-map {
-    position: absolute;
-    background: #c0c0c0;
-    top: 50px;
-    right: 30%;
-    z-index: 999999;
-    width: 267px;
-    padding: 20px;
-    color: #0a0a0a;
-    font-family: 'Helvetica';
-    font-size: 20px;
-    font-weight: 300;
-    opacity: 0;
-    animation: fadeIn 1s 1.5s;
-    animation-fill-mode: forwards;
-
-    span {
-        font-size: 18px;
-    }
 }

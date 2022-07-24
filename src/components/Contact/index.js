@@ -39,10 +39,10 @@ const Contact = () => {
                     <h1>
                         Contact Me
                     </h1>
-                    <p style={{ width: "60%" }}>
+                    <p>
                         I am interested in freelance opportunities - especially ambitious on
-                        large projects. However, if you have other request or question,
-                        don't hesitate to contact me using below form either.
+                        challenging projects. However, if you have other request or question,
+                        don't hesitate to contact me using the form below.
                     </p>
                     <div className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
@@ -81,14 +81,6 @@ const Contact = () => {
                             </ul>
                         </form>
                     </div>
-                </div>
-                <div className="info-map">
-                    Elias Getachew,
-                    <br />
-                    Addis Ababa,
-                    <br />
-                    Ethiopia<br />
-                    <span>eluwest2000@gmail.com</span>
                 </div>
                 <div className="map-wrap">
                     <MapContainer center={[9.040691, 38.708838]} zoom={13}>
