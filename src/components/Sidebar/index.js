@@ -33,7 +33,7 @@ function Sidebar() {
             <ul>
                 <li>
                     <a
-                        href="https://www.linkedin.com/in/elias-getachew-414a521b3/"
+                        href="www.linkedin.com/in/elias-getachew001"
                         target="_blank"
                         rel="noreferrer"
                     >
